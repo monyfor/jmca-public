@@ -1,0 +1,8 @@
+name: john smith
+age: 25
+address:
+  city: New York
+  country: USA
+hobbies:
+  - reading
+  - cooking

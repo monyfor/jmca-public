@@ -1,0 +1,10 @@
+name: 
+  - Jon Doe
+  - Joe Snow
+grade: first
+age: 32
+subjects:
+  - &defaultSubject math
+  - litterature
+  - geography
+favorite_subject: *defaultSubject

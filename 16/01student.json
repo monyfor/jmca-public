@@ -1,0 +1,15 @@
+{
+    "name": "Jon Doe",
+    "grade": [
+        "first",
+        "second",
+        "two"
+    ],
+    "age": 34,
+    "subjects": [
+        "math",
+        "litterature",
+        "geography",
+        "science"
+    ]
+}
