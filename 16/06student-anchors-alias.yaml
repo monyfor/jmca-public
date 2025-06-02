@@ -4,7 +4,7 @@ name:
 grade: first
 age: 32
 subjects:
-  - &defaultSubject math
+  - &defaultSubject maths
   - litterature
   - geography
 favorite_subject: *defaultSubject
