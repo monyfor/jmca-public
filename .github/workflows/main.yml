@@ -1,0 +1,17 @@
+name: Docker Hub Login Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  docker-login:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v3
+
+      - name: Docker login to Docker Hub
+        run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+
+      - name: Show Docker info
+        run: docker info
